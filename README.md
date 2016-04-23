@@ -23,7 +23,7 @@ __Per this simulation, the proportion of occupied houses converges to ~.432... a
 
 __My a priori conjecture was 5/12, which equals roughly .41666...__
 
-As we used to say in my old job: 'close enough for government work.'
+As we used to say in my old job: _close enough for government work._
 
 
 The underlying R code for the simulation is 'misanthropic_neighbors.R' in this repository.  The ui.R & server.R scripts pertain to the shiny app implementation.
