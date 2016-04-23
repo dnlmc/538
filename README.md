@@ -17,9 +17,9 @@ As N grows infinitely large, the fraction of occupied houses will approach the m
 
 There are variances in the distributions of best, worst, & middle cases depending on N being odd or even, as well as its size (in fact, odd N's can do better than 1/2 in edge cases for large N's, and very often for small N's).  However, these marginal variances should shrink asymptotically to zero as N approaches infinity. 
 
-To test this, I created a simulation in R.  I then whipped that code into an interactive shiny app, which can be accessed here: https://dnlmc.shinyapps.io/misanthrope_app/
+To test this, I created a simulation in R.  I then wrapped that code in an interactive shiny app, which can be accessed here: https://dnlmc.shinyapps.io/misanthrope_app/
 
-__Per this simulation, the proportion of occupied houses converges to ~.432... as N grows larger.__
+__Per this simulation, the proportion of occupied houses converges to ~ .432... as N grows larger.__
 
 __My a priori conjecture was 5/12, which equals roughly .41666...__
 
@@ -28,4 +28,4 @@ As we used to say in my old job: _close enough for government work._
 
 The underlying R code for the simulation is 'misanthropic_neighbors.R' in this repository.  The ui.R & server.R scripts pertain to the shiny app implementation.
 
-I'm thinking about adding a representation of a typical row of occupied & unoccupied houses at the end of a given trial, but its utility & interpretability also shrink to zero as N increases (& becomes relevant to the problem posed).
+I'm thinking about adding a representation of a typical row of occupied & unoccupied houses at the end of a given trial, but its utility & interpretability also approaches zero as N increases (& becomes relevant to the problem posed).
