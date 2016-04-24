@@ -26,6 +26,6 @@ __My a priori conjecture was 5/12, which equals roughly .41666...__
 As we used to say in my old job: _close enough for government work._
 
 
-The underlying R code for the simulation is 'misanthropic_neighbors.R' in this repository.  The ui.R & server.R scripts pertain to the shiny app implementation.
+The underlying R code for the simulation is '[misanthropic_neighbors.R](https://github.com/dnlmc/538/blob/master/misanthropic_neighbors.R "R code")' in [this repository](https://github.com/dnlmc/538/ "Github Repository").  The ui.R & server.R scripts pertain to the shiny app implementation.
 
 I'm thinking about adding a representation of a typical row of occupied & unoccupied houses at the end of a given trial, but its utility & interpretability also approaches zero as N increases (& becomes relevant to the problem posed).
