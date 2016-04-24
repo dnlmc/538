@@ -21,7 +21,7 @@ To test this, I created a simulation in R.  I then wrapped that code in an inter
 
 __Per this simulation, the proportion of occupied houses converges to ~ .432... as N grows larger.__
 
-__My a priori conjecture was 5/12, which equals roughly .41666...__
+__My _a priori_ conjecture was 5/12, which equals roughly .41666...__
 
 As we used to say in my old job: _close enough for government work._
 
