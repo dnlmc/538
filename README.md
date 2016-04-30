@@ -19,7 +19,7 @@ There are variances in the distributions of best, worst, & median cases dependin
 
 To test this, I created a simulation in R.  I then wrapped that code in an interactive shiny app, which can be accessed here: https://dnlmc.shinyapps.io/misanthrope_app/
 
-__Per this simulation, the proportion of occupied houses converges to ~ .432... as N grows larger.__
+__Per this simulation, the proportion of occupied houses converges to ≈ .432... as N grows larger.__
 
 __My _a priori_ conjecture was 5/12, which equals roughly .41666...__
 
