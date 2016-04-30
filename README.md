@@ -15,7 +15,7 @@ __My a priori reasoning:__
 
 As N grows infinitely large, the fraction of occupied houses will approach the mean case. 
 
-There are variances in the distributions of best, worst, & middle cases depending on N being odd or even, as well as its size (in fact, odd N's can do better than 1/2 in edge cases for large N's, and very often for small N's).  However, these marginal variances should shrink asymptotically to zero as N approaches infinity. 
+There are variances in the distributions of best, worst, & median cases depending on N being odd or even, as well as its size (in fact, odd N's can do better than 1/2 in edge cases for large N's, and very often for small N's).  However, these marginal variances should shrink asymptotically to zero as N approaches infinity. 
 
 To test this, I created a simulation in R.  I then wrapped that code in an interactive shiny app, which can be accessed here: https://dnlmc.shinyapps.io/misanthrope_app/
 
