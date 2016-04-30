@@ -1,10 +1,10 @@
-# Performs a stochastic Simulation of FiveThirtyEight.com's 'The Riddler' puzzle
+# Performs a stochastic simulation of FiveThirtyEight.com's 'The Riddler' puzzle
 # for 4/22/16: Misanthropic Neighbors.
 # (see: https://fivethirtyeight.com/features/can-you-solve-the-puzzle-of-your-misanthropic-neighbors/)
 #
 # Args:
 #   houses:  Number of houses in the row
-#   trials:  NUmber of trials to perform & average over
+#   trials:  Number of trials to perform & average over
 #
 # Returns:  the mean proportion of occupied houses at the end of all trials, 
 # and plots a histogram of proportions of occupied houses after each trial.
